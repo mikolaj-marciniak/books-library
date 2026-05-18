@@ -1,0 +1,40 @@
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if "Windows_NT" == "Windows_NT" setlocal
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set DIRNAME=C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\ 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if "C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\" == "" set DIRNAME=. 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set APP_BASE_NAME=gradlew 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set APP_HOME=C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\ 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>for %i in ("C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\") do set APP_HOME=%~fi 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set APP_HOME=C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\ 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set DEFAULT_JVM_OPTS="-Xmx64m" "-Xms64m" 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if defined JAVA_HOME goto findJavaFromJavaHome 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set JAVA_EXE=java.exe 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>java.exe -version  1>NUL 2>&1 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if 0 EQU 0 goto execute 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>"java.exe" "-Xmx64m" "-Xms64m"   "-Dorg.gradle.appname=gradlew" -jar "C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books\\gradle\wrapper\gradle-wrapper.jar" bootRun --args=--server.port=8082 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if 1 EQU 0 goto mainEnd 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instead of 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>rem the _cmd.exe /c_ return code! 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>set EXIT_CODE=1 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if 1 EQU 0 set EXIT_CODE=1 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>if not "" == "" exit 1 
+
+C:\Users\mikol\Desktop\webowka-github\advanced-web-technologies\lab4\books>exit /b 1 
